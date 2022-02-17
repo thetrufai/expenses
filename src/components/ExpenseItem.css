@@ -9,6 +9,11 @@
     background-color: lightgray;
 }
 
+.beauty-date {
+    display: flex;
+    padding: 2px;
+
+}
 .expense-item__description {
     display: flex;
     flex-direction: column;
