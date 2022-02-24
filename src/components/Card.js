@@ -1,10 +1,10 @@
-import './Cart.css';
+import './Card.css';
 
-function Cart(props){
+function Card(props){
 
     const classes = "card" + props.className;
 
     return <div className= {classes}> {props.children} </div>
 }
 
-export default Cart;
+export default Card;
