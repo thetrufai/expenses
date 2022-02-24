@@ -1,8 +1,9 @@
 import ExpenseItem from "./ExpenseItem";
 import Cart from "./Cart";
-import '/.Expenses.css';
+import './Expenses.css';
 
 function Expenses(props) {
+
     return (
         <Cart className="expenses-css">
             <ExpenseItem
